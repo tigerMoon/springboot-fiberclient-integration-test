@@ -1,0 +1,11 @@
+org.springframework.http.client.ClientHttpRequest.*
+org.springframework.http.client.ClientHttpRequestExecution.*
+org.springframework.http.client.ClientHttpRequestInterceptor.*
+org.apache.http.client.HttpClient.*
+org.springframework.web.client.ResponseErrorHandler.*
+java.util.function.Supplier<T>.*
+org.springframework.http.client.ScNetty4ClientHttpRequest.*
+com.social.credits.integration.infra.InfraCompanyResource.*
+com.social.credits.integration.analysis.EnterpriseAnalysisResource.*
+java.util.stream.*
+org.springframework.http.client.ClientHttpRequestInterceptor.*

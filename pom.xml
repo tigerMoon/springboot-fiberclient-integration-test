@@ -19,6 +19,7 @@
         <mockito.version>1.10.19</mockito.version>
         <apache.commons.version>3.3.2</apache.commons.version>
         <guava.version>18.0</guava.version>
+        <quasar-core.version>0.7.6</quasar-core.version>
         <sc.integration.starter.version>0.0.1-SNAPSHOT</sc.integration.starter.version>
     </properties>
     <modules>
@@ -38,6 +39,12 @@
     </dependencyManagement>
 
     <dependencies>
+        <dependency>
+            <groupId>co.paralleluniverse</groupId>
+            <artifactId>quasar-core</artifactId>
+            <version>${quasar-core.version}</version>
+            <classifier>jdk8</classifier>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>

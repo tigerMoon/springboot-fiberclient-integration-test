@@ -1,5 +1,6 @@
 package com.social.credits.resource.test.db.cg;
 
+import co.paralleluniverse.fibers.Fiber;
 import com.social.credits.web.service.SimpleService;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -19,7 +19,7 @@ import java.util.List;
 @ComponentScan(basePackages = "com.social.credits")
 public class ScHttpClientConfig {
 
-    @Value("${fiber.http.client.io.thread:1000}")
+    @Value("${fiber.http.client.io.thread:10}")
     private int httpIoThread;
 
     @Value("${fiber.http.client.conn.route:1000}")
